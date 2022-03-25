@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D929BEAC27ED366100B04B91 /* HobbyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D929BEAB27ED366100B04B91 /* HobbyCell.swift */; };
+		D942DA4B27ED3F9800310BE5 /* HobbiesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D942DA4A27ED3F9800310BE5 /* HobbiesData.swift */; };
 		D944888527ED1898005EF37C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D944888427ED1898005EF37C /* AppDelegate.swift */; };
 		D944888727ED1898005EF37C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D944888627ED1898005EF37C /* SceneDelegate.swift */; };
-		D944888927ED1898005EF37C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D944888827ED1898005EF37C /* ViewController.swift */; };
+		D944888927ED1898005EF37C /* HobbiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D944888827ED1898005EF37C /* HobbiesViewController.swift */; };
 		D944888C27ED1898005EF37C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D944888A27ED1898005EF37C /* Main.storyboard */; };
 		D944888E27ED1899005EF37C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D944888D27ED1899005EF37C /* Assets.xcassets */; };
 		D944889127ED1899005EF37C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D944888F27ED1899005EF37C /* LaunchScreen.storyboard */; };
+		D944889D27ED371A005EF37C /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D944889C27ED371A005EF37C /* CustomLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D929BEAB27ED366100B04B91 /* HobbyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyCell.swift; sourceTree = "<group>"; };
+		D942DA4A27ED3F9800310BE5 /* HobbiesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbiesData.swift; sourceTree = "<group>"; };
 		D944888127ED1898005EF37C /* Hobbies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hobbies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D944888427ED1898005EF37C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D944888627ED1898005EF37C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D944888827ED1898005EF37C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D944888827ED1898005EF37C /* HobbiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbiesViewController.swift; sourceTree = "<group>"; };
 		D944888B27ED1898005EF37C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D944888D27ED1899005EF37C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D944889027ED1899005EF37C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D944889227ED1899005EF37C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D944889C27ED371A005EF37C /* CustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,13 @@
 			children = (
 				D944888427ED1898005EF37C /* AppDelegate.swift */,
 				D944888627ED1898005EF37C /* SceneDelegate.swift */,
-				D944888827ED1898005EF37C /* ViewController.swift */,
+				D942DA4A27ED3F9800310BE5 /* HobbiesData.swift */,
+				D944889C27ED371A005EF37C /* CustomLayout.swift */,
+				D944888827ED1898005EF37C /* HobbiesViewController.swift */,
+				D929BEAB27ED366100B04B91 /* HobbyCell.swift */,
 				D944888A27ED1898005EF37C /* Main.storyboard */,
-				D944888D27ED1899005EF37C /* Assets.xcassets */,
 				D944888F27ED1899005EF37C /* LaunchScreen.storyboard */,
+				D944888D27ED1899005EF37C /* Assets.xcassets */,
 				D944889227ED1899005EF37C /* Info.plist */,
 			);
 			path = Hobbies;
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D944888927ED1898005EF37C /* ViewController.swift in Sources */,
+				D944888927ED1898005EF37C /* HobbiesViewController.swift in Sources */,
+				D944889D27ED371A005EF37C /* CustomLayout.swift in Sources */,
+				D942DA4B27ED3F9800310BE5 /* HobbiesData.swift in Sources */,
 				D944888527ED1898005EF37C /* AppDelegate.swift in Sources */,
+				D929BEAC27ED366100B04B91 /* HobbyCell.swift in Sources */,
 				D944888727ED1898005EF37C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
