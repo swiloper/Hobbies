@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HobbiesViewController: UIViewController {
+final class HobbiesViewController: UIViewController {
     @IBOutlet weak var hobbiesCollectionView: UICollectionView!
     
     override func viewDidLoad() {
@@ -21,6 +21,9 @@ class HobbiesViewController: UIViewController {
 }
 
 extension HobbiesViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+    
+    // MARK: UICollectionViewDataSource
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return HobbiesData.hobbies.count
     }
@@ -30,6 +33,8 @@ extension HobbiesViewController: UICollectionViewDelegate, UICollectionViewDataS
         hobbyCell.setupHobbyCell(hobby: HobbiesData.hobbies[indexPath.row])
         return hobbyCell
     }
+    
+    // MARK: UICollectionViewDataSource
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let hobbyCell = hobbiesCollectionView.cellForItem(at: indexPath) as! HobbyCell
